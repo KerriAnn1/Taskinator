@@ -11,6 +11,8 @@ var tasksToDoEl = document.querySelector("#tasks-to-do");
     if (!taskNameInput || !taskTypeInput){
       alert("You need to fill out the task form");
       return false;
+
+   formEl.reset();
     }
     
    
